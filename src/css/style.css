@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    color: hsl(193, 38%, 86%);
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+}
+
+.cor-verde{
+    color: hsl(150, 100%, 66%)
+}
+
+.titulo {
+    padding-top: 30px;
+}
+
+.texto{
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.divisao{
+    height: 12%;
+}
+.botao{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-botao{
+    height: 15px;
+}
+
+.divisao-botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
